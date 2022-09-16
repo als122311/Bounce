@@ -143,6 +143,16 @@ document.addEventListener("keyup", function(info) {
         leftPressed = false
     })
 
+    
+    rightButton.addEventListener("touchstart", function() {
+        rightPressed = true
+    })
+
+    
+    rightButton.addEventListener("touchhend", function() {
+        rightssPressed = false
+    })
+
 
 
 let troughWidht = 70
