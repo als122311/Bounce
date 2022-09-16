@@ -139,7 +139,7 @@ document.addEventListener("keyup", function(info) {
     })
 
     
-    leftButton.addEventListener("touchhend", function() {
+    leftButton.addEventListener("touchend", function() {
         leftPressed = false
     })
 
@@ -149,8 +149,8 @@ document.addEventListener("keyup", function(info) {
     })
 
     
-    rightButton.addEventListener("touchhend", function() {
-        rightssPressed = false
+    rightButton.addEventListener("touchend", function() {
+        rightPressed = false
     })
 
 
